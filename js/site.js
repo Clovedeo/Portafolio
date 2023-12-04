@@ -21,11 +21,17 @@ function pantalla(){
             circulo.setAttribute('cy', '70');
             circulo.setAttribute('r', '60');
         });
-    } else if(ancho <= 750){
+    } else if(ancho <= 750 && ancho > 546){
         circulos.forEach((circulo) =>{
             circulo.setAttribute('cx', '64');
             circulo.setAttribute('cy', '64');
             circulo.setAttribute('r', '45');
+        });
+    } else if(ancho <= 546) {
+        circulos.forEach((circulo) =>{
+            circulo.setAttribute('cx', '49');
+            circulo.setAttribute('cy', '49');
+            circulo.setAttribute('r', '36');
         });
     }
 }

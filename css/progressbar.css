@@ -113,6 +113,7 @@ svg{
         font-size: 10px;
     }
 }
+
 @media screen and (max-width: 767.20px) {
     .skills{
         height: 130px;
@@ -135,5 +136,34 @@ svg{
     }
     .numberPB{
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 562.40px) {
+    .skills{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+    .outer{
+        height: 80px;
+        width: 80px;
+        padding: 9.5px;
+    }
+    .inner{
+        height: 60px;
+        width: 60px;
+    }
+    svg{
+        height: 90px;
+        width: 90px;
+        top: 0;
+        left: 0;
+    }
+    circle{
+        stroke-width: 10px;
+    }
+    .numberPB{
+        font-size: 7px;
     }
 }
