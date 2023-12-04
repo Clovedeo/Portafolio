@@ -7,7 +7,7 @@ setInterval(() =>{
         counterJS += 1;
         numberJS.innerHTML = counterJS + "%\nJavaScript";
     }
-}, 25);
+}, 30);
 
 let numberJava = document.getElementById('numberJava');
 let counterJava = 0;
@@ -18,7 +18,7 @@ setInterval(() =>{
         counterJava += 1;
         numberJava.innerHTML = counterJava + "%\nJava";
     }
-}, 105);
+}, 80);
 
 let numberCS = document.getElementById('numberCS');
 let counterCS = 0;
@@ -29,15 +29,15 @@ setInterval(() =>{
         counterCS += 1;
         numberCS.innerHTML = counterCS + "%\nC Sharp";
     }
-}, 17);
+}, 28);
 
 let numberKotlin = document.getElementById('numberKotlin');
 let counterKotlin = 0;
 setInterval(() =>{
-    if(counterJava == 25){
+    if(counterKotlin == 30){
         clearInterval();
     } else {
         counterKotlin += 1;
         numberKotlin.innerHTML = counterKotlin + "%\nKotlin";
     }
-}, 85);
+}, 66);
