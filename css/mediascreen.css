@@ -31,9 +31,34 @@
     }
     circle{
         stroke-dasharray: 375;
+        stroke-dashoffset: 375;
     }
     .numberPB{
         font-size: 10px;
+    }
+    /* Animación de círculo */
+    @keyframes javascript {
+        100%{
+            stroke-dashoffset: 131;
+        }
+    }
+
+    @keyframes java {
+        100%{
+            stroke-dashoffset: 281;
+        }
+    }
+
+    @keyframes cs {
+        100%{
+            stroke-dashoffset: 112;
+        }
+    }
+
+    @keyframes kotlin {
+        100%{
+            stroke-dashoffset: 262;
+        }
     }
 
     /* Proyectos */
@@ -73,10 +98,36 @@
     }
     circle{
         stroke-dasharray: 283;
+        stroke-dashoffset: 283;
     }
     .numberPB{
         font-size: 10px;
     }
+    /* Animación de círculo */
+    @keyframes javascript {
+        100%{
+            stroke-dashoffset: 99;
+        }
+    }
+
+    @keyframes java {
+        100%{
+            stroke-dashoffset: 212;
+        }
+    }
+
+    @keyframes cs {
+        100%{
+            stroke-dashoffset: 85   ;
+        }
+    }
+
+    @keyframes kotlin {
+        100%{
+            stroke-dashoffset: 198;
+        }
+    }
+    
     /* Proyectos */
     .swiper{
         padding: 30px 0 40px 0;
@@ -147,9 +198,34 @@
     circle{
         stroke-width: 10px;
         stroke-dasharray: 225;
+        stroke-dashoffset: 225;
     }
     .numberPB{
         font-size: 7px;
+    }
+    /* Animación de círculo */
+    @keyframes javascript {
+        100%{
+            stroke-dashoffset: 79;
+        }
+    }
+
+    @keyframes java {
+        100%{
+            stroke-dashoffset: 169;
+        }
+    }
+
+    @keyframes cs {
+        100%{
+            stroke-dashoffset: 67;
+        }
+    }
+
+    @keyframes kotlin {
+        100%{
+            stroke-dashoffset: 157;
+        }
     }
 
     /* Proyectos */
@@ -258,10 +334,39 @@
     }
 }
 
+@media screen and (max-width: 450px){
+    /* Footer */
+    .pie-pagina{
+        font-size: 70%;
+    }
+
+    .pie-pagina .grupo-1{
+        margin: 0 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pie-pagina .grupo-1 .box h2{
+        font-size: 96%;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 100px;
+        height: 100px;
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        width: 44px;
+        height: 44px;
+    }
+}
+
 @media screen and (max-width: 444px){
     /* Footer */
     .pie-pagina{
         font-size: 70%;
+    }
+
+    .pie-pagina .grupo-1{
+        margin: 0 30px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .pie-pagina .grupo-1 .box h2{
@@ -311,9 +416,34 @@
     circle{
         stroke-width: 10px;
         stroke-dasharray: 162;
+        stroke-dashoffset: 162;
     }
     .numberPB{
         font-size: 6px;
+    }
+    /* Animación de círculo */
+    @keyframes javascript {
+        100%{
+            stroke-dashoffset: 57;
+        }
+    }
+
+    @keyframes java {
+        100%{
+            stroke-dashoffset: 121;
+        }
+    }
+
+    @keyframes cs {
+        100%{
+            stroke-dashoffset: 49;
+        }
+    }
+
+    @keyframes kotlin {
+        100%{
+            stroke-dashoffset: 113;
+        }
     }
 
     /* Proyectos */

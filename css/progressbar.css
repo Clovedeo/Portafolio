@@ -44,7 +44,7 @@ circle{
     stroke: url(#GradientColor);
     stroke-width: 20px;
     stroke-dasharray: 472;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 472;
 }
 
 svg{
@@ -53,8 +53,20 @@ svg{
     left: 19.5px;
 }
 
-/* #circleJS{
+#circleJS{
     animation: javascript 2s linear forwards;
+}
+
+#circleJava{
+    animation: java 2s linear forwards;
+}
+
+#circleCS{
+    animation: cs 2s linear forwards;
+}
+
+#circleKotlin{
+    animation: kotlin 2s linear forwards;
 }
 
 @keyframes javascript {
@@ -63,18 +75,10 @@ svg{
     }
 }
 
-#circleJava{
-    animation: java 2s linear forwards;
-}
-
 @keyframes java {
     100%{
         stroke-dashoffset: 354;
     }
-}
-
-#circleCS{
-    animation: cs 2s linear forwards;
 }
 
 @keyframes cs {
@@ -83,12 +87,8 @@ svg{
     }
 }
 
-#circleKotlin{
-    animation: kotlin 2s linear forwards;
-}
-
 @keyframes kotlin {
     100%{
         stroke-dashoffset: 259;
     }
-} */
+}

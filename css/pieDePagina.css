@@ -25,6 +25,9 @@
     grid-gap: 50px;
     padding: 45px 0;
 }
+.box{
+    overflow: hidden;
+}
 
 .pie-pagina .grupo-1 .box figure{
     width: 90%;
