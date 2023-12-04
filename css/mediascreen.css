@@ -1,4 +1,18 @@
+@media screen and (max-width: 1199.20px){
+    /* Proyectos */
+    .product-img img{
+      height: 100px;
+    }
+}
+
 @media screen and (max-width: 992px) {
+    /* Presentación */
+    .yo{
+        height: 250px;
+        width: 250px;
+    }
+
+    /* Skills */
     .skills{
         height: 180px;
         width: 180px;
@@ -15,12 +29,29 @@
         height: 140px;
         width: 140px;   
     }
+    circle{
+        stroke-dasharray: 375;
+    }
     .numberPB{
         font-size: 10px;
+    }
+
+    /* Proyectos */
+    .btn-1{
+        margin-top: 20px;
+    }
+    .product-img img{
+      height: 70px;
     }
 }
 
 @media screen and (max-width: 767.20px) {
+    /* Presentación */
+    .yo{
+        height: 220px;
+        width: 220px;
+    }
+    /* Skills */
     .skills{
         height: 130px;
         width: 130px;
@@ -40,12 +71,44 @@
         top: 0;
         left: 0;
     }
+    circle{
+        stroke-dasharray: 283;
+    }
     .numberPB{
         font-size: 10px;
     }
+    /* Proyectos */
+    .swiper{
+        padding: 30px 0 40px 0;
+    }
+    .product-txt p{
+        margin-left: 17px;
+    }
+    .product-img img{
+      height: 50px;
+    }
+    .icons img {
+        width: 80px;
+    }
+    .icons span{
+        font-size: 23px;
+    }
+
+    
+}
+
+@media screen and (max-width: 603.40px){
+    
 }
 
 @media screen and (max-width: 562.40px) {
+    /* Presentación */
+    .yo{
+        height: 170px;
+        width: 170px;
+    }
+
+    /* Skills */
     .skills{
         height: 100px;
         width: 100px;
@@ -68,13 +131,110 @@
     }
     circle{
         stroke-width: 10px;
+        stroke-dasharray: 225;
     }
     .numberPB{
         font-size: 7px;
     }
+
+    /* Proyectos */
+    .icons img {
+        width: 70px;
+    }
+    .icons span{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 555.20px){
+    /* Proyectos */
+    .swiper{
+        padding: 20px 0 30px 0;
+    }
+    .product-txt p{
+        margin-left: 14px;
+        font-size: 12px;
+    }
+    .product-img {
+      height: 0px;
+    }
+    .product-img img{
+      height: 0px;
+    }
+    .icons img {
+        width: 60px;
+    }
+    .icons span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 535.20px){
+    /* Proyectos */
+    .swiper{
+        padding: 20px 0 30px 0;
+    }
+    .product-txt p{
+        margin-left: 14px;
+        font-size: 12px;
+        height: 140px;
+    }
+    .product-img {
+      height: 0px;
+    }
+    .product-img img{
+      height: 0px;
+    }
+    .icons img {
+        width: 60px;
+    }
+    .icons span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 470.20px){
+    /* Proyectos */
+    .swiper{
+        padding: 20px 0 30px 0;
+        height: 30%;
+    }
+    .swiper-slide{
+        height: 30%;
+    }
+    .product-txt p{
+        margin-left: 14px;
+        font-size: 10px;
+        height: 110px;
+    }
+    .product-img {
+      height: 0px;
+    }
+    .product-img img{
+      height: 0px;
+    }
+    .icons img {
+        width: 60px;
+    }
+    .icons span{
+        font-size: 18px;
+    }
+    .btn-1{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 438.40px) {
+    /* Presentación */
+    .yo{
+        height: 100px;
+        width: 100px;
+    }
+    #presentacion{
+        font-size: 10px;
+    }
+
+    /* Skills */
     .skills{
         height: 80px;
         width: 80px;
@@ -97,15 +257,40 @@
     }
     circle{
         stroke-width: 10px;
+        stroke-dasharray: 162;
     }
     .numberPB{
         font-size: 6px;
     }
-    .yo{
-        height: 100px;
-        width: 100px;
+
+    /* Proyectos */
+    .swiper{
+        padding: 20px 0 30px 0;
+        height: 30%;
     }
-    #presentacion{
-        font-size: 10px;
+    .swiper-slide{
+        height: 30%;
     }
+    .product-txt p{
+        margin-left: 10px;
+        font-size: 9px;
+        height: 110px;
+    }
+    .product-img {
+      height: 0px;
+    }
+    .product-img img{
+      height: 0px;
+    }
+    .icons img {
+        width: 40px;
+        border-radius: 7px;
+    }
+    .icons span{
+        font-size: 15px;
+    }
+    .btn-1{
+        margin-top: 0;
+    }
+
 }
