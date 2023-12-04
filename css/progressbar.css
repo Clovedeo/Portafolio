@@ -195,4 +195,11 @@ svg{
     .numberPB{
         font-size: 6px;
     }
+    .yo{
+        height: 100px;
+        width: 100px;
+    }
+    #presentacion{
+        font-size: 10px;
+    }
 }
