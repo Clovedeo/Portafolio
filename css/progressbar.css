@@ -34,7 +34,7 @@
                 0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
                 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
-#number{
+.numberPB{
     font-weight: 600px;
     color: #d5d5d5;
 }
@@ -70,5 +70,25 @@ svg{
 @keyframes java {
     100%{
         stroke-dashoffset: 354;
+    }
+}
+
+#circleCS{
+    animation: cs 2s linear forwards;
+}
+
+@keyframes cs {
+    100%{
+        stroke-dashoffset: 141;
+    }
+}
+
+#circleKotlin{
+    animation: kotlin 2s linear forwards;
+}
+
+@keyframes kotlin {
+    100%{
+        stroke-dashoffset: 259;
     }
 }

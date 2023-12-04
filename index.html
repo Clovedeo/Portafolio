@@ -41,10 +41,11 @@
     </div>
     <hr>
       <div class="progressbar-cont">
+
         <div class="skills">
           <div class="outer">
             <div class="inner">
-              <div id="number">
+              <div class="numberPB" id="numberJS">
                 65%
               </div>
             </div>
@@ -64,7 +65,7 @@
         <div class="skills">
           <div class="outer">
             <div class="inner">
-              <div id="number">
+              <div class="numberPB" id="numberJava">
                 25%
               </div>
             </div>
@@ -80,43 +81,49 @@
             <circle cx="80" cy="80" r="70" id="circleJava" stroke-linecap="round" />
           </svg>
         </div>
-      </div>
-    <hr>
 
-    <hr>
+        <div class="skills">
+          <div class="outer">
+            <div class="inner">
+              <div class="numberPB" id="numberCS">
+                70%
+              </div>
+            </div>
+          </div>
 
-    <div class="row">
-              
-      <div class="col-12 centrado">
-        <span id="aprendiendo" class="btn-expandir">Los lenguajes que mejor uso</span>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" id="circleCS" stroke-linecap="round" />
+          </svg>
+        </div>
+
+        <div class="skills">
+          <div class="outer">
+            <div class="inner">
+              <div class="numberPB" id="numberKotlin">
+                45%
+              </div>
+            </div>
+          </div>
+
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" id="circleKotlin" stroke-linecap="round" />
+          </svg>
+        </div>
+        
       </div>
       
-      <div style="background-image: url(img/brain.png);" id="texto-aprendiendo" class="cont-h1 col-12 mt-md-2 centrado texto-expandir">
-        <span id="adio" class="adio">;)</span>
-        <em class="planet left">
-          <div class="rotate-p-l">
-            <img id="lang-kotlin" class="lang-icon" height="40px" width="40px" src="img/kotlin-logo.png">
-          </div>
-        </em>
-        <em class="planet-inside left-inside">
-          <div class="rotate-p-r">
-            <img id="lang-csharp" class="lang-icon" height="40px" width="40px" src="img/cdnlogo.com_c-sharp.png">
-          </div>
-        </em>
-        <em class="planet-inside right-inside">
-          <div class="rotate-p-r">
-            <img id="lang-java" class="lang-icon" height="40px" width="40px" src="img/java-logo.png">
-          </div>
-        </em>
-        <em class="planet right">
-          <div class="rotate-p-l">
-            <img id="lang-js" class="lang-icon" height="40px" width="40px" src="img/javascript-logo.png">
-          </div>
-        </em>
-      </div>
-
-    </div>
-
     <hr>
 
     <div class="row">
@@ -202,6 +209,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="js/code.jquery.com_jquery-3.7.1.js"></script>
   <script src="js/site.js"></script>
+  <script src="js/progressbar.js"></script>
 </body>
 
 </html>
