@@ -167,3 +167,32 @@ svg{
         font-size: 7px;
     }
 }
+
+@media screen and (max-width: 438.40px) {
+    .skills{
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+    }
+    .outer{
+        height: 60px;
+        width: 60px;
+        padding: 9.5px;
+    }
+    .inner{
+        height: 40px;
+        width: 40px;
+    }
+    svg{
+        height: 80px;
+        width: 80px;
+        top: 0;
+        left: 0;
+    }
+    circle{
+        stroke-width: 10px;
+    }
+    .numberPB{
+        font-size: 6px;
+    }
+}
