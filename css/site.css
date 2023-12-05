@@ -4,14 +4,6 @@
     /* font-family: 'Press Start 2P';
     font-size: 15px; */
 }
-#spotify{
-  color: white;
-  display: block;
-  border: 3px solid white;
-  padding: 7px;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
 a:link { text-decoration:none; }
 a:visited { text-decoration:none; }
 
@@ -19,8 +11,13 @@ body{
     background: linear-gradient(90deg, rgb(3, 1, 35) 0%, rgb(18, 18, 38) 35%, rgb(30, 31, 31) 100%);
 }
 
+main{
+  margin-top: 80px;
+}
+
 .yo{
-    border-radius:  50%;
+  margin: 5px;
+  border-radius:  50%;
 }
 
 #writemachinge{
@@ -69,6 +66,7 @@ body{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   padding: 20px;
   text-align: center;
+  z-index: 1;
 }
 
 .icons{

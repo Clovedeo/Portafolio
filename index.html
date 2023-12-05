@@ -3,7 +3,7 @@
 <html lang="es">
 
 <head>
-  <title>Portafolio Clovedeo</title>
+  <title>Manuel Obregón - Portafolio</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <link rel="icon" href="img/icons/favicon.ico" />
@@ -26,35 +26,23 @@
 
 <body>
 
-  <header>
-    <nav>
-      <img src="img/icons/logo.svg">
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#SeccionLenguajes">Lenguajes</a></li>
-        <li><a href="#SeccionProyectos">Proyectos</a></li>
-        <li><a href="#Contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- <header id="Header">
-
-    <img src="img/icons/logo.svg" class="logo" alt="">
-
-    <input type="checkbox" id="menu">
-    <label for="menu">
-      <img src="img/cdnlogo.png" class="menu-icono" alt="">
+  <nav>
+    <input type="checkbox" name="" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
     </label>
 
-    <ul class="menu">
-      <li class="item">Inicio</li>
-      <li class="item">Skills</li>
-      <li class="item">Proyectos</li>
-      <li class="item">Contacto</li>
-      <li class="btn">Login</li>
-    </ul>
+    <a href="#" class="enlace">
+      <img src="img/icons/logo.svg" class="logo" alt="">
+    </a>
 
-  </header> -->
+    <ul>
+      <li><a class="active" href="#">Inicio</a></li>
+      <li><a href="#SeccionLenguajes">Skills</a></li>
+      <li><a href="#SeccionProyectos">Proyectos</a></li>
+      <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+  </nav>
 
   <main class="container">
 
@@ -71,7 +59,12 @@
         </div>
     </div>
     <hr>
-      <div id="SeccionLenguajes" class="progressbar-cont">
+    <section id="SeccionLenguajes"></section>
+
+    <div class="row">
+      <div class="col-12 centrado">Skills</div>
+    </div>
+      <div id="" class="progressbar-cont">
 
         <div class="skills">
           <div class="outer">
@@ -156,6 +149,7 @@
       </div>
       
     <hr>
+    <section id="SeccionProyectos"></section>
 
     <div class="row">
       <div id="SeccionProyectos" class="col-12 centrado">Proyectos</div>
@@ -203,7 +197,8 @@
     </div>
 
   </main>
-  <footer class="pie-pagina">
+  <span id="Contacto"></span>
+  <footer  class="pie-pagina">
     <div class="grupo-1">
       <div class="box">
         <figure>
@@ -213,7 +208,7 @@
         </figure>
       </div>
       <div class="box">
-        <h2 id="Contacto">Contacto</h2>
+        <h2>Contacto</h2>
         <p>
           Correo:
         </p>
@@ -239,7 +234,7 @@
     </div>
 
     <div class="grupo-2">
-      <small>&copy; 2023 <b>Clovedeo</b> - Todos los derechos reservados.</small>
+      <small>&copy; 2023 <b>Clovedeo</b></small>
     </div>
   </footer>
   <!-- <footer class="border-top footer">
