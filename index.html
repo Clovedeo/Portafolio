@@ -41,6 +41,7 @@
       <li><a href="#SeccionLenguajes">Skills</a></li>
       <li><a href="#SeccionProyectos">Proyectos</a></li>
       <li><a href="#Contacto">Contacto</a></li>
+      <li><a href="https://drive.google.com/file/d/1TG1qtVSl7yBoEdPOjOovrLYL1dL_pC-6/view?usp=sharing" download="WebfundamentalsLogo" target="_blank">CV</a></li>
     </ul>
   </nav>
 
@@ -283,20 +284,18 @@
   </script><script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script>
     let swiper = new Swiper(".mySwiper", {
-      initialSlide: 3,
-      lazyPreloadPrevNext: 1,
+      initialSlide: 0,
+      lazyPreloadPrevNext: 2,
+      grabCursor: true,
       direction: 'horizontal',
       loop: true,
       centerSlides: true,
       slidesPerView: 2,
       slidesPerGroup: 2,
-      effect: 'coverflow',
-      coverflowEffect: {
-        rotate: 30,
-        slideShadows: false,
+      effect: 'fade',
+      autoplay: {
+        delay: 5000
       },
-
-      // And if we need scrollbar
       scrollbar: {
         el: '.swiper-scrollbar',
       },
