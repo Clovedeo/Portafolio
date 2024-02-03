@@ -193,6 +193,43 @@
           <a href="https://play.google.com/store/apps/details?id=com.clovedeo.taptaptap" class="btn-1"><img width="40px" height="40px" src="img/proyectos/play_store_icon.png"></a>
         </div>
 
+        <div class="swiper-slide">
+          <div class="icons">
+            <span>Sistema Integrado de Gestión Bibliotecaria</span>
+            <img src="img/proyectos/LogoCUIV.png">
+          </div>
+          <div class="product-content">
+            <div class="product-txt">
+              <p>
+                Beneficia principalmente a maestros, alumnos y académicos que acuden a mediateca en el CeU Idiomas.
+              </p>
+            </div>
+            <div class="product-img">
+              <img src="img/proyectos/screen-mediateca.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="icons">
+            <span>WARN</span>
+            <img src="img/proyectos/icon-warn.png">
+          </div>
+          <div class="product-content">
+            <div class="product-txt">
+              <p>
+                Aplicación web y móvil creada para un proyecto escolar, el cual sirve para organizar diferentes productos.
+              </p>
+            </div>
+            <div class="product-img">
+              <img src="img/proyectos/screen-warn.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+
       </div>
     </div>
 
@@ -246,14 +283,22 @@
   </script><script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script>
     let swiper = new Swiper(".mySwiper", {
+      initialSlide: 3,
+      lazyPreloadPrevNext: 1,
+      direction: 'horizontal',
       loop: true,
-      grabCursor: true,
       centerSlides: true,
       slidesPerView: 2,
+      slidesPerGroup: 2,
       effect: 'coverflow',
       coverflowEffect: {
         rotate: 30,
         slideShadows: false,
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
       },
     });
   </script>
