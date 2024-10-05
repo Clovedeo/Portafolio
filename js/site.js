@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    window.location.replace("https://clovedeo.com/");
     pantalla()
 })
 
